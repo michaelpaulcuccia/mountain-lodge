@@ -14,6 +14,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0 auto;
   max-width: 1400px;
 }
@@ -78,6 +82,7 @@ header #showcase h1 {
   color: #fff;
   font-size: 38px;
   padding-top: 30px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 header #showcase h1 span {
@@ -93,7 +98,7 @@ header #showcase h1 span {
 }
 
 header #showcase p {
-  width: 70%;
+  width: 65%;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 220px;
@@ -127,5 +132,94 @@ header #showcase a {
 header #showcase a:hover {
   background-color: #00ed82;
   color: #333;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.content-container .image-display {
+  background: url("../images/drew-coffman-EbivdbB83Y0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 500px;
+}
+
+@media (max-width: 600px) {
+  .content-container .image-display {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.content-container .text-container {
+  width: 50%;
+  padding-top: 70px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .content-container .text-container {
+    width: 100%;
+    height: 350px;
+    padding-top: 20px;
+  }
+}
+
+.content-container .text-container h2 {
+  font-size: 28px;
+}
+
+@media (max-width: 600px) {
+  .content-container .text-container h2 {
+    font-size: 22px;
+  }
+}
+
+.content-container .text-container p {
+  padding: 10px 55px;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .content-container .text-container p {
+    font-size: 14px;
+  }
+}
+
+.content-container .text-container span {
+  color: #00ed82;
+}
+
+.content-container .text-container img {
+  padding-top: 10px;
+  height: 75px;
+  width: 75px;
+}
+
+@media (max-width: 600px) {
+  .content-container .text-container img {
+    height: 45px;
+    width: 45px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
