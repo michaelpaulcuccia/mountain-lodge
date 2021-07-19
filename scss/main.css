@@ -59,6 +59,10 @@ header #navbar ul li a {
   padding: 0 15px;
 }
 
+header #navbar ul li a:hover {
+  color: #00ed82;
+}
+
 header #showcase {
   width: 100%;
   height: 500px;
@@ -100,7 +104,8 @@ header #showcase h1 span {
 header #showcase p {
   width: 65%;
   text-align: center;
-  padding-top: 30px;
+  font-size: 20px;
+  padding-top: 25px;
   padding-bottom: 220px;
   color: #fff;
 }
@@ -173,6 +178,7 @@ header #showcase a:hover {
   width: 50%;
   padding-top: 70px;
   text-align: center;
+  line-height: 1.4;
   background-color: #333;
   color: #fff;
 }
@@ -196,7 +202,7 @@ header #showcase a:hover {
 }
 
 .content-container .text-container p {
-  padding: 10px 55px;
+  padding: 10px 35px;
   font-size: 18px;
 }
 
@@ -210,8 +216,18 @@ header #showcase a:hover {
   color: #00ed82;
 }
 
+.content-container .text-container .spacer {
+  height: 50px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .content-container .text-container .spacer {
+    height: 20px;
+  }
+}
+
 .content-container .text-container img {
-  padding-top: 10px;
   height: 75px;
   width: 75px;
 }
@@ -221,5 +237,59 @@ header #showcase a:hover {
     height: 45px;
     width: 45px;
   }
+}
+
+.offerings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .offerings {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.offerings .offerings-item {
+  height: 275px;
+  width: 33.33%;
+}
+
+@media (max-width: 600px) {
+  .offerings .offerings-item {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+.offerings .offerings-item:nth-child(2) {
+  background-color: #00ed82;
+}
+
+.offerings i {
+  padding-top: 45px;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .offerings i {
+    padding-top: 25px;
+  }
+}
+
+.offerings ul {
+  padding-top: 10px;
+}
+
+.offerings ul li {
+  list-style: none;
 }
 /*# sourceMappingURL=main.css.map */

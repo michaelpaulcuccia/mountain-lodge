@@ -30,6 +30,10 @@ header {
           text-decoration: none;
           color: $primary-light;
           padding: 0 15px;
+
+          &:hover {
+            color: $primary-highlight;
+          }
         }
       }
     }
@@ -65,7 +69,8 @@ header {
     p {
       width: 65%;
       text-align: center;
-      padding-top: 30px;
+      font-size: 20px;
+      padding-top: 25px;
       padding-bottom: 220px;
       color: $primary-light;
 
@@ -122,6 +127,7 @@ header {
     width: 50%;
     padding-top: 70px;
     text-align: center;
+    line-height: 1.4;
     background-color: $primary-dark;
     color: $primary-light;
 
@@ -140,7 +146,7 @@ header {
     }
 
     p {
-      padding: 10px 55px;
+      padding: 10px 35px;
       font-size: 18px;
 
       @media (max-width: 600px) {
@@ -152,8 +158,16 @@ header {
       color: $primary-highlight;
     }
 
+    .spacer {
+      height: 50px;
+      width: 100%;
+
+      @media (max-width: 600px) {
+        height: 20px;
+      }
+    }
+
     img {
-      padding-top: 10px;
       height: 75px;
       width: 75px;
 
@@ -161,6 +175,46 @@ header {
         height: 45px;
         width: 45px;
       }
+    }
+  }
+}
+
+.offerings {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  .offerings-item {
+    height: 275px;
+    width: 33.33%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+      height: 250px;
+    }
+
+    &:nth-child(2) {
+      background-color: $primary-highlight;
+    }
+  }
+
+  i {
+    padding-top: 45px;
+    color: $primary-dark;
+
+    @media (max-width: 600px) {
+      padding-top: 25px;
+    }
+  }
+
+  ul {
+    padding-top: 10px;
+    li {
+      list-style: none;
     }
   }
 }
