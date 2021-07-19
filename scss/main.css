@@ -1,0 +1,131 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.7;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+header {
+  width: 100%;
+}
+
+header #navbar {
+  background: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #navbar a .logo {
+  height: 60px;
+  width: 60px;
+  padding-left: 15px;
+}
+
+header #navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+header #navbar ul li {
+  list-style: none;
+}
+
+header #navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+}
+
+header #showcase {
+  width: 100%;
+  height: 500px;
+  background: url("../images/showcase.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #showcase h1 {
+  color: #fff;
+  font-size: 38px;
+  padding-top: 30px;
+}
+
+header #showcase h1 span {
+  color: #00ed82;
+}
+
+@media (max-width: 600px) {
+  header #showcase h1 {
+    padding-top: 40px;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+header #showcase p {
+  width: 70%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 220px;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  header #showcase p {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-size: 14px;
+  }
+}
+
+header #showcase a {
+  height: 60px;
+  width: 200px;
+  padding: 15px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+header #showcase a:hover {
+  background-color: #00ed82;
+  color: #333;
+}
+/*# sourceMappingURL=main.css.map */
