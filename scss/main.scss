@@ -218,3 +218,27 @@ header {
     }
   }
 }
+
+.footer {
+  width: 100%;
+  width: 100%;
+  height: 125px;
+  background-color: $primary-dark;
+  color: $primary-light;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+
+  &-pay-items {
+    display: flex;
+  }
+
+  &-pay-item {
+    padding-top: 10px;
+    padding-right: 20px;
+
+    &:first-child {
+      padding-left: 10px;
+    }
+  }
+}
