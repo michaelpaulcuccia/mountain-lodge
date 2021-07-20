@@ -308,6 +308,26 @@ header #showcase a:hover {
           justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 250px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer h3 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
 .footer-pay-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,7 +339,22 @@ header #showcase a:hover {
   padding-right: 20px;
 }
 
-.footer-pay-item:first-child {
-  padding-left: 10px;
+@media (max-width: 600px) {
+  .footer-pay-item {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.footer-text {
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .footer-text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 /*# sourceMappingURL=main.css.map */
