@@ -357,4 +357,82 @@ header #showcase a:hover {
             order: 1;
   }
 }
+
+.about-showcase {
+  width: 100%;
+  height: 500px;
+  background: url("../images/patrick-lalonde-KXaGGUeRgvE-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-showcase h1 {
+  color: #fff;
+  font-size: 38px;
+  padding-top: 200px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about-showcase h1 span {
+  color: #00ed82;
+}
+
+@media (max-width: 600px) {
+  .about-showcase h1 {
+    padding-top: 40px;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+.reviews {
+  width: 100%;
+  height: 600px;
+  background-color: #333;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  .reviews {
+    height: 1100px;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 15px;
+    overflow: hidden;
+  }
+}
+
+.reviews-card {
+  height: 250px;
+  width: 325px;
+  border-radius: 25px;
+  background-color: #00ed82;
+}
+
+@media (max-width: 600px) {
+  .reviews-card {
+    height: 200px;
+    width: 275px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
