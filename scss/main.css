@@ -435,4 +435,24 @@ header #showcase a:hover {
     width: 275px;
   }
 }
+
+.reviews-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.reviews-card-text {
+  margin-top: 10px;
+  margin-left: 35px;
+  text-align: center;
+  width: 70%;
+}
 /*# sourceMappingURL=main.css.map */

@@ -327,5 +327,20 @@ header {
       height: 200px;
       width: 275px;
     }
+
+    &-header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      padding-top: 10px;
+    }
+
+    &-text {
+      margin-top: 10px;
+      margin-left: 35px;
+      text-align: center;
+      width: 70%;
+    }
   }
 }
