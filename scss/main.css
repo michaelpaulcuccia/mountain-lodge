@@ -93,7 +93,7 @@ header #showcase h1 span {
   color: #00ed82;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   header #showcase h1 {
     padding-top: 40px;
     font-size: 32px;
@@ -110,7 +110,7 @@ header #showcase p {
   color: #fff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   header #showcase p {
     padding-top: 70px;
     padding-bottom: 100px;
@@ -149,7 +149,7 @@ header #showcase a:hover {
   width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .content-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -167,7 +167,7 @@ header #showcase a:hover {
   height: 500px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .content-container .image-display {
     width: 100%;
     height: 350px;
@@ -183,7 +183,7 @@ header #showcase a:hover {
   color: #fff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .content-container .text-container {
     width: 100%;
     height: 350px;
@@ -195,7 +195,7 @@ header #showcase a:hover {
   font-size: 28px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .content-container .text-container h2 {
     font-size: 22px;
   }
@@ -206,7 +206,7 @@ header #showcase a:hover {
   font-size: 18px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .content-container .text-container p {
     font-size: 14px;
   }
@@ -221,7 +221,7 @@ header #showcase a:hover {
   width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .content-container .text-container .spacer {
     height: 20px;
   }
@@ -232,7 +232,7 @@ header #showcase a:hover {
   width: 75px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .content-container .text-container img {
     height: 45px;
     width: 45px;
@@ -249,7 +249,7 @@ header #showcase a:hover {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .offerings {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -263,7 +263,7 @@ header #showcase a:hover {
   width: 33.33%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .offerings .offerings-item {
     width: 100%;
     height: 250px;
@@ -279,7 +279,7 @@ header #showcase a:hover {
   color: #333;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .offerings i {
     padding-top: 25px;
   }
@@ -308,7 +308,7 @@ header #showcase a:hover {
           justify-content: space-between;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -321,7 +321,7 @@ header #showcase a:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .footer h3 {
     text-align: center;
     font-size: 16px;
@@ -339,7 +339,7 @@ header #showcase a:hover {
   padding-right: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .footer-pay-item {
     padding-right: 10px;
     padding-left: 10px;
@@ -350,7 +350,7 @@ header #showcase a:hover {
   margin-top: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .footer-text {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -388,9 +388,9 @@ header #showcase a:hover {
   color: #00ed82;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .about-showcase h1 {
-    padding-top: 40px;
+    padding-top: 80px;
     font-size: 32px;
     text-align: center;
   }
@@ -410,7 +410,7 @@ header #showcase a:hover {
   padding: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .reviews {
     height: 1100px;
     -ms-grid-rows: 1fr;
@@ -429,7 +429,7 @@ header #showcase a:hover {
   background-color: #00ed82;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 785px) {
   .reviews-card {
     height: 200px;
     width: 275px;
@@ -451,8 +451,104 @@ header #showcase a:hover {
 
 .reviews-card-text {
   margin-top: 10px;
-  margin-left: 35px;
+  margin-left: 45px;
   text-align: center;
   width: 70%;
+}
+
+@media (max-width: 785px) {
+  .reviews-card-text p {
+    font-size: 14px;
+  }
+}
+
+.contact-showcase {
+  width: 100%;
+  height: 600px;
+  background: url("../images/pexels-victor-santos-325703.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-showcase h1 {
+  color: #fff;
+  font-size: 38px;
+  padding-top: 200px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contact-showcase h1 span {
+  color: #00ed82;
+}
+
+@media (max-width: 785px) {
+  .contact-showcase h1 {
+    padding-top: 250px;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+.contact-text-container {
+  width: 100%;
+  height: 500px;
+  background-color: #00ed82;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 785px) {
+  .contact-text-container {
+    height: 400px;
+  }
+}
+
+.contact-text-container h2 {
+  font-size: 32px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.contact-text-container h2 span {
+  color: #fff;
+}
+
+.contact-text-container p {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.contact-text-container .final-image {
+  height: 275px;
+  width: 200px;
+  background: url("../images/jordan-steranka-cnu5z_ER3Hk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 785px) {
+  .contact-text-container .final-image {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
